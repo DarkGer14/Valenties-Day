@@ -66,7 +66,18 @@ Contáctame:
         </div>
     </div>
 
-    <script src="script.js"></script>
+       <script src="script.js"></script>
+    
+        <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+    document.addEventListener("click", function() {
+        var audio = document.getElementById("music");
+        audio.play();
+    });
+    </script>
 
 </body>
 
